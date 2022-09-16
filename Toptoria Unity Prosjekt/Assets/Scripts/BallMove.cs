@@ -3,16 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BallMove : MonoBehaviour
-{  
-   
-    // Update is called once per frame
-    void Update()
-    {
-       if(Input.GetKeyDown(KeyCode.Space))
-       {
-        GetComponent<Animator>().Play("ElsaAnna");
-       }
-    }
+{   
+  public Rigidbody2D rb;
+  public Animator animator;
+  public float velocity;
 
-   
+    void Update() {
+      
+      velocity =  rb.velocity.magnitude;
+    
+      if (velocity > 0.15)
+      { 
+        animator.Play("Motion_Ball");
+      }
+     
+      else if (velocity < 0.15)
+      { 
+        animator.Play("Idle_Ball");
+      }
+    }
 }
+
