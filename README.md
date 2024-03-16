@@ -4,6 +4,6 @@
 
 Et lite hobby spill-prosjekt jeg jobber med i Unity. Et ballspill!
 
-Ferdig: animasjon til hovedkarakter (oransje topp), animasjon og fysikk til ball, musikk (evt. lag mer), volum-slider, bakgrunn og kollisjoner, layers.
+Ferdig: animasjon og fysikk til hovedkarakter (oransje topp), animasjon og fysikk til ball, musikk (evt. lag mer), volum-slider, bakgrunn og kollisjoner, layer-ordning mellom objekter (unngår "clipping" eller å bli "stuck"), fysikk og delvis animasjon til motstander (grønn).
 
-Uferdig: mål, slutt på spillet, animasjon til motstander (grønn topp), menyfunksjon (resolution, fullscreen), ...
+Uferdig: mål, slutt på spillet, bedre animasjon til motstander (grønn topp), menyfunksjon (resolution, fullscreen), mer gøy animasjon (ansiktsuttrykk, chatbobler), flere levels?
